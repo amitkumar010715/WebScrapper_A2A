@@ -1,0 +1,10 @@
+pyautogen>=0.2.0
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+openai
+ag2[a2a]
+truststore
+google-generativeai
+ag2[gemini]
