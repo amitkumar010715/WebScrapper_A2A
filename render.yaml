@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: autogen-a2a-server
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:server --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false   # set this manually in Render dashboard
