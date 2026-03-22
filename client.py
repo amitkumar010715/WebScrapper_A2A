@@ -2,7 +2,7 @@ import requests
 import uuid
 import json
 
-URL = "http://localhost:9000/"
+URL = "https://webscrapper-a2a-1.onrender.com/"
 
 
 def send_message(user_input):
