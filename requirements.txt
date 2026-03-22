@@ -8,3 +8,4 @@ ag2[a2a]
 truststore
 google-generativeai
 ag2[gemini]
+bs4
